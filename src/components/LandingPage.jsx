@@ -3,7 +3,7 @@ import React from 'react'
 function LandingPage() {
   return (
     <div className='text-white'>
-      LANDING PAGE!
+      LANDING PAGE created!
     </div>
   )
 }
