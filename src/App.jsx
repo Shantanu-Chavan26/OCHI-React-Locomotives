@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <LandingPage />
       <Marquee />
-      <About />
+      
     </div>
   )
 }
