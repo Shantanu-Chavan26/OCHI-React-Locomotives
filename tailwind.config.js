@@ -5,7 +5,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'playwrite': ['"Playwright"', 'sans-serif'],
+        'playwrite': ['"Playwright"', 'sans-serif' , ],
+
+        'neue-montreal': ['"Neue Montreal"', 'sans-serif'],
+
     },
   },
 },
