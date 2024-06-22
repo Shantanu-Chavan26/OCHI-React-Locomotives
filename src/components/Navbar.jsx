@@ -5,7 +5,7 @@ import React from 'react'
 function Navbar() {
   return (
    
-    <div className='  bg-zinc-900 z-[999] w-full px-20 py-8 font-["Playwrite Colombia"] flex justify-between items-center'>
+    <div className=' bg-[#F7F3E9] z-[999] w-full px-20 py-8 font-["Playwrite Colombia"] flex justify-between text-black items-center'>
       <motion.div    animate={{
         scale: [1, 2, 2, 1, 1],
         rotate: [0, 0, 180, 180, 0],
@@ -27,9 +27,9 @@ function Navbar() {
 								</svg>
        </motion.div>
 
-       <div className='links flex gap-10'>
+       <div className='links flex gap-10 font-bold'>
            {["Services" , "Our Work" , "About Us" , "Insights" , "Contact"].map((item , index)=>(
-             <a key={index} className={`text-lg  capitalize font-light ${index === 4 && "ml-32"}`}>{item}</a>
+             <a key={index} className={`text-lg  capitalize font-semibold ${index === 4 && "ml-32"}`}>{item}</a>
            ))}
        </div>
        

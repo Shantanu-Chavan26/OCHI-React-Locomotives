@@ -6,7 +6,7 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 function App() {
   return (
-    <div className='w-full min-h-screen  text-white bg-zinc-900'>
+    <div className='w-full min-h-screen  text-white bg-[#F7F3E9]'>
       <Navbar />
       <LandingPage />
       <Marquee />

@@ -25,7 +25,7 @@ function Eyes() {
   })
   
   return (
-    <div className='eyes w-full h-screen overflow-hidden bg-zinc-900'>
+    <div className='eyes w-full h-screen  bg-zinc-900'>
       <div className='relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
         <div className='black-div absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-32  flex gap-10'>
           <div className=' flex items-center w-[16vw] h-[17.2vw] bg-white rounded-full justify-center'>
