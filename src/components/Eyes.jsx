@@ -1,11 +1,59 @@
-import React from 'react'
+import React, { useEffect , useRef , useState} from 'react';
+
+
 
 function Eyes() {
+  
+   const [rotate, setrotate] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("mousemove" , (e)=>{
+      let  mouseX=e.clientX ;
+      let  mouseY=e.clientY ;
+      
+
+      let deltaX = mouseX - window.innerWidth/2;
+      let deltaY = mouseY - window.innerHeight/2;
+
+
+      var angle = Math.atan2(deltaY , deltaX) * (180/Math.PI);
+      setrotate(angle-180);
+
+    })
+  
+  
+  })
+  
   return (
-    <div>
-      1:22:19
+    <div className='eyes w-full h-screen overflow-hidden bg-zinc-900'>
+      <div className='relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
+        <div className='black-div absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-32  flex gap-10'>
+          <div className=' flex items-center w-[16vw] h-[17.2vw] bg-white rounded-full justify-center'>
+            <div className='w-2/3 h-2/3  rounded-full bg-zinc-900 relative justify-center items-center flex'>
+            <h2>Play</h2>
+            <div style={{transform: `translate(-50% , -50%) rotate(${rotate}deg) `}} className='line w-full h-5 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
+            <div className='w-5 h-5 rounded-full bg-white '>
+            </div>
+            
+
+            </div>
+            </div>
+          </div>
+          <div className='w-[16vw] h-[17.2vw] bg-white rounded-full flex items-center justify-center'>
+          <div className='w-2/3 h-2/3  rounded-full bg-zinc-900 relative justify-center items-center flex'>
+            <h2>Play</h2>
+            <div style={{transform: `translate(-50% , -50%) rotate(${rotate}deg) `}} className='line w-full h-5 absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
+            <div className='w-5 h-5 rounded-full bg-white '>
+            </div>
+            
+
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Eyes
+export default Eyes;

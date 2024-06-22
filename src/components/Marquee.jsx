@@ -3,7 +3,7 @@ import React from 'react';
 
 function Marquee() {
   return (
-    <div className='w-full bg-red-800 rounded-2xl rounded-tl-3xl rounded-tr-3xl'>
+    <div className='w-full bg-red-700 rounded-2xl rounded-tl-3xl rounded-tr-3xl'>
       <div className='text-black py-10 border-t-2 border-b-2 flex overflow-hidden whitespace-nowrap'>
         {/* <motion.h1
           initial={{ x: '0%' }}
