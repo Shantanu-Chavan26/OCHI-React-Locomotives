@@ -16,12 +16,12 @@ function About() {
         borderRadius: ["50%", "50%", "50%", "50%", "50%"]
       }}
       transition={{
-        duration: 10,
+        duration: 3,
         ease: "easeInOut",
         times: [0, 0.2, 0.5, 0.8, 1],
         repeat: Infinity,
         repeatDelay: 1
-      }} className='px-10 py-6 bg-zinc-900 rounded-full  text-white flex gap-10 items-center'>Read More <div className='w-2 h-2 bg-zinc-100 rounded-full'>
+      }} className='px-10 py-6 bg-zinc-900 rounded-full  text-white flex gap-10 items-center'>Read More<div className='w-2 h-2 bg-zinc-100 rounded-full'>
             </div></motion.button>
         </div>
         <div className='w-1/2 h-[70vh] bg-white  rounded-3xl bg-[url("https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")] bg-cover '>
