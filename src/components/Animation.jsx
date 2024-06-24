@@ -53,7 +53,7 @@ function Animation() {
   const y = useMotionValue(0);
 
   return (
-    <div className="flex items-center justify-center w-full h-screen bg-zinc-700">
+    <div className="flex items-center justify-center w-full h-screen bg-zinc-900">
         <div className="w-full h-screen">
                          
         </div>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Featured() {
   return (
     <div className='w-full py-10 bg-zinc-900'>
-      <div className='w-full px-10 border-b-2 border-white pb-20'>
+      <div className='w-full px-10 pb-20'>
         <h1 className='text-7xl font-serif text-semibold text-white'>Featured Projects</h1>
       </div>
       <div className='px-20 mt-10'>
