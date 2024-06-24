@@ -6,7 +6,7 @@ import Marquee from './components/Marquee';
 import About from './components/About';
 import Eyes from './components/Eyes';
 import Featured from './components/Featured';
-
+import Animation from './components/Animation'
 function App() {
   const { scrollYProgress } = useScroll();
 
@@ -24,6 +24,7 @@ function App() {
       <About />
       <Eyes />
       <Featured />
+      <Animation />
     </div>
   );
 }
