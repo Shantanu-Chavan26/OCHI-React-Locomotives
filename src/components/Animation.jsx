@@ -53,11 +53,11 @@ function Animation() {
   const y = useMotionValue(0);
 
   return (
-    <div className="flex items-center justify-center w-full h-screen bg-zinc-900 gap-10">
-        <div className=" Heading w-full h-screen font-bold font-serif text-center  text-7xl mt-[20%] text-orange-500">
-          <div className="heading1 mb-20"> <h1>Drag </h1> </div>
-          <div className="heading2 mb-20">  <h1>Imagination </h1> </div>
-          <motion.div className="heading3">  <h1>A.R.O.U.N.D</h1> </motion.div>
+    <div className="flex items-center justify-center w-full h-screen bg-[#F7F3E9] gap-10">
+        <div className=" Heading w-full h-screen font-bold font-serif text-center  text-7xl mt-[20%] text-orange-600">
+          <div className="heading1 mb-20 border-2 border-black p-4 rounded-xl ml-2 "> <h1>Drag </h1> </div>
+          <div className="heading2 mb-20 border-2 border-black p-4 rounded-xl ml-2">  <h1>Imagination </h1> </div>
+          <motion.div className="heading3 border-2 border-black p-4 rounded-xl ml-2">  <h1>A.R.O.U.N.D</h1> </motion.div>
                    
         </div>
       <motion.div
