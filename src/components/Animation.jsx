@@ -53,9 +53,12 @@ function Animation() {
   const y = useMotionValue(0);
 
   return (
-    <div className="flex items-center justify-center w-full h-screen bg-zinc-900">
-        <div className="w-full h-screen">
-                         
+    <div className="flex items-center justify-center w-full h-screen bg-zinc-900 gap-10">
+        <div className=" Heading w-full h-screen font-bold font-serif text-center  text-7xl mt-[20%] text-orange-500">
+          <div className="heading1 mb-20"> <h1>Drag </h1> </div>
+          <div className="heading2 mb-20">  <h1>Imagination </h1> </div>
+          <motion.div className="heading3">  <h1>A.R.O.U.N.D</h1> </motion.div>
+                   
         </div>
       <motion.div
         animate={{ '--base-hue': 180 }}
@@ -63,9 +66,11 @@ function Animation() {
         transition={{ duration: 10, loop: Infinity, ease: "linear" }}
         className="w-full h-screen"
         style={{ '--base-hue': 0 }} 
-      >
+      >      
+         
+              
         <div
-          className="relative"
+          className="relative w-full h-screen"
           style={{
             display: "flex",
             width: `${(size + gap) * 4 - gap}px`,
@@ -89,7 +94,9 @@ function Animation() {
               />
             ))
           )}
+ 
         </div>
+      
       </motion.div>
     </div>
   );
