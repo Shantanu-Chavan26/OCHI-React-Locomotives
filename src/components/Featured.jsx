@@ -31,7 +31,7 @@ function Featured() {
               transition={{ duration: 0.3 }}
               className='absolute z-10 text-5xl leading-none tracking-tighter font-neue-montreal text-[#b3fb21] w-full text-center top-[50%] left-1/2 transform -translate-x-1/2 py-2 mr-10'
             >
-              {"PROJECT 1".split('').map((item, index) => <span key={index}>{item}</span>)}
+              {"PROJECT 1".split('').map((item, index) => <motion.span  key={index}>{item}</motion.span>)}
             </motion.div>
 
             <div className='rounded-xl w-full h-full overflow-hidden'>

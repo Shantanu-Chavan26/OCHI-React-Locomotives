@@ -23,8 +23,8 @@ function Eyes() {
   }, []);
 
   return (
-    <div className='eyes w-full h-screen bg-[#F7F3E9] relative'>
-      <div className='absolute w-full h-full bg-cover bg-center opacity-90' style={{ backgroundImage: 'url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")' }}></div>
+    <div className='eyes w-full h-screen bg-[#F7F3E9] relative overflow-hidden'>
+      <div  data-scroll   data-scroll-speed = "-.9"    className='absolute w-full h-full bg-cover bg-center opacity-90' style={{ backgroundImage: 'url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")' }}></div>
       <div className='relative w-full h-full flex justify-center items-center'>
         <div className='black-div h-32 flex gap-10'>
           <div className='flex items-center w-[16vw] h-[17.2vw] bg-white rounded-full justify-center'>

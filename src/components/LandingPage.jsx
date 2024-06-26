@@ -5,7 +5,7 @@ motion
 
 function LandingPage() {
   return (
-    <div data-scroll data-scroll-speed="-.8" className='w-full h-screen bg-zinc-900 border-t-2'>
+    <div data-scroll data-scroll-speed="-.3" className='w-full h-screen bg-zinc-900 border-t-2'>
        <div className='textstructure mt-52 px-20'>
         {["We Create" ,"Eye Opening" , "Presentations"].map((item , index)=>{
             return  <div className='masker font-serif font-semibold'> 

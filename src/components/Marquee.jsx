@@ -3,7 +3,7 @@ import React from 'react';
 
 function Marquee() {
   return (
-    <div data-scroll data-scroll-speed=".1"    className='w-full bg-[#F7F3E9] rounded-2xl rounded-tl-3xl rounded-tr-3xl'>
+    <div data-scroll data-scroll-section data-scroll-speed=".1"    className='w-full bg-[#F7F3E9] rounded-2xl rounded-tl-3xl rounded-tr-3xl'>
       <div className='text-black py-10 border-t-2 border-b-2 flex overflow-hidden whitespace-nowrap'>
         {/* <motion.h1
           initial={{ x: '0%' }}
