@@ -1,14 +1,16 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { FaLocationArrow } from "react-icons/fa";
+motion
 
 function LandingPage() {
   return (
-    <div className='w-full h-screen bg-zinc-900 border-t-2'>
+    <div data-scroll data-scroll-speed="-.8" className='w-full h-screen bg-zinc-900 border-t-2'>
        <div className='textstructure mt-52 px-20'>
         {["We Create" ,"Eye Opening" , "Presentations"].map((item , index)=>{
             return  <div className='masker font-serif font-semibold'> 
             <div className='w-fit flex'>
-            {index === 1 && <div className='mr-5 rounded-md relative w-[9vw] h-[5vw] bg-red-500'></div>}
+            {index === 1 && <motion.div initial={{width:0}}  animate={{width:"9vw"}} transiton={{ease:[0, 0.55, 0.45, 1] , duration:5}}   className='mr-5 rounded-md relative w-[9vw] h-[5vw] bg-red-500'></motion.div>}
             <h1 className='uppercase text-7xl leading-[7.5vw]tracking-tigher'>{item}</h1>
             </div>
           </div>

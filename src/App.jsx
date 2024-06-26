@@ -7,8 +7,12 @@ import About from './components/About';
 import Eyes from './components/Eyes';
 import Featured from './components/Featured';
 import Animation from './components/Animation'
+import Footer from './components/Footer';
+import LocomotiveScroll from 'locomotive-scroll';
 function App() {
+
   const { scrollYProgress } = useScroll();
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <div className='relative w-full min-h-screen text-white bg-[#F7F3E9]'>
@@ -25,6 +29,7 @@ function App() {
       <Eyes />
       <Featured />
       <Animation />
+      <Footer />
     </div>
   );
 }
