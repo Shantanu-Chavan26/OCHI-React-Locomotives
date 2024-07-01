@@ -15,7 +15,7 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className='relative w-full min-h-screen text-white bg-[#F7F3E9]'>
+    <div className='relative w-full min-h-screen text-white bg-black]'>
       {/* Scroll Progress Indicator */}
       <motion.div
         className='fixed top-0 left-0 right-0 h-1 bg-blue-400 origin-left z-50'

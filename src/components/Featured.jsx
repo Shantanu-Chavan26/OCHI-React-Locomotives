@@ -35,7 +35,7 @@ function Featured() {
             </motion.div>
 
             <div className='rounded-xl w-full h-full overflow-hidden'>
-              <img className="w-full h-full object-cover" src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png" alt="Project 1" />
+              <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1579389082947-e54d8e911928?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 1" />
             </div>
           </motion.div>
 
@@ -56,7 +56,7 @@ function Featured() {
                 restDelta: 0.001
               }
             }}
-            className='rightcard relative card w-1/2 h-[75vh] overflow-hidden rounded-xl  border-2 border-white p-4'
+            className='rightcard relative card w-1/2 h-[75vh] overflow-hidden rounded-xl  p-4'
           >
             <motion.div
               initial={{ opacity: 0 }}
@@ -68,7 +68,7 @@ function Featured() {
             </motion.div>
 
             <div className='rounded-xl w-full h-full overflow-hidden'>
-              <img className="w-full h-full object-cover" src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg" alt="Project 2" />
+              <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1622050756792-5b1180bbb873?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2" />
             </div>
           </motion.div>
         </div>
@@ -99,7 +99,7 @@ function Featured() {
             </motion.div>
 
             <div className='rounded-xl w-full h-full overflow-hidden'>
-              <img className="w-full h-full object-cover" src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png" alt="Project 1" />
+              <img className="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1661290256778-3b821d52c514?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 3" />
             </div>
           </motion.div>
 
@@ -121,7 +121,7 @@ function Featured() {
                 restDelta: 0.001
               }
             }}
-            className='rightcard relative card w-1/2 h-[75vh] rounded-xl overflow-hidden border-2 border-white p-4'
+            className='rightcard relative card w-1/2 h-[75vh] rounded-xl overflow-hidden  p-4'
           >
             <motion.div
               initial={{ opacity: 0 }}
@@ -133,7 +133,7 @@ function Featured() {
             </motion.div>
 
             <div className='rounded-xl w-full h-full overflow-hidden'>
-              <img className="w-full h-full object-cover" src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg" alt="Project 2" />
+              <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 4" />
             </div>
           </motion.div>
         </div>

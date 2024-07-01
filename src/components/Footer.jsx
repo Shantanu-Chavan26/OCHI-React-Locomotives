@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.4"    className='Main-container w-full h-screen bg-zinc-900 font-serif p-20 flex gap-5'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.4"    className='Main-container w-full h-screen bg-[#F7F3E9] text-black font-serif p-20 flex gap-5'>
       <div className='w-1/2 h-full flex flex-col justify-between '> 
       <div className='headings'>      
      <h1 className='text-[5vw] -mb-2 leading-none uppercase font-bold'>EYE-</h1>
@@ -20,13 +20,42 @@ function Footer() {
 
       
      </h1>
-     <div className="dets font-neue-montreal mt-10">
+     <div className="dets font-neue-montreal mt-1 gap-5 mb-10">
+            <h3  className='py-2 mt-5' >
+              S:
+            </h3>
             <a  className='block text-xl mt-20' href="#">Facebook</a>
             <a className='block text-xl'  href="#">Instagram</a>
-            <a  className='block text-xl' href="#">Twitter</a>
+            <a  className='block text-xl' href="#">X</a>
+            <a  className='block text-xl' href="#">Linkedin</a>
         </div>
+
+
+        <div className="dets font-neue-montreal mt-1 flex justify-between gap-10">
+          <div>
+          <h3 className='mt-3'>L:</h3>
+            <a  className='block text-xl mt-20' href="#">30 Chukarina St
+            </a>
+            <a className='block text-xl'  href="#">Lviv, Ukraine</a>
+            <a  className='block text-xl' href="#">hello@ochi.design</a>
+          </div>
+
+          <div>
+          <h3 className='mt-3'>R:</h3>
+            <a  className='block text-xl mt-20' href="#">Home
+            </a>
+            <a className='block text-xl'  href="#">About Us</a>
+            <a  className='block text-xl' href="#">Contact us</a>
+          </div>
+          
+        </div>
+
+
+
      </div>
+
      
+
     </div>
   ) 
 }
